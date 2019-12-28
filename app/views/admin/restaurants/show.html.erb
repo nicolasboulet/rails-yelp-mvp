@@ -9,6 +9,5 @@ Phone: <%= @restaurant.phone_number %></p>
     <li> <%= review.content %> | <%= review.rating %> </li>
   <% end %>
 </ul>
-<p><%= link_to "Add a review", new_restaurant_review_path(@restaurant), class: "btn btn-success" %></p>
-<p><%= link_to "Back to restaurants list", restaurants_path, class: "btn btn-primary" %></p>
+<p><%= link_to "Back to Admin restaurants list", admin_restaurants_path, class: "btn btn-primary" %></p>
 
